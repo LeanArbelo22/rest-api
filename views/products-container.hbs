@@ -1,0 +1,36 @@
+{{#each products}}
+<div>
+    <h4>NAME:</h4>
+    <p>{{ this.name }}</p>
+
+    <h4>PRICE:</h4>
+    <p>{{ this.price }}</p>
+
+    {{#if this.off}}
+    <h3>OFERTA!</h3>
+    {{/if}}
+
+    <p>Created: {{ this.date }}</p>
+</div>
+{{/each}}
+
+<style>
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f085cc;
+}
+
+h4 {
+    color: crimson;
+}
+
+h3 {
+    color: teal;
+}
+</style>

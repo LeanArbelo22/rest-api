@@ -1,0 +1,8 @@
+PUT http://localhost:3001/api/products/6297cf52caf7fade4e0dbf5d
+Content-Type: application/json
+
+{
+    "name": "Ej0",
+    "price": 9,
+    "off": true
+}

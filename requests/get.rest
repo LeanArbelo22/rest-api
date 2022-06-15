@@ -1,0 +1,8 @@
+GET http://localhost:3001/api/products
+
+###
+
+GET http://localhost:3001/api/products/2
+
+###
+GET http://localhost:3001/api/users

@@ -1,0 +1,4 @@
+/node_modules
+.env
+anotaciones.txt
+/tests/utils/others
